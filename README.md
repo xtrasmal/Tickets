@@ -3,7 +3,7 @@ Tickets
 
 Module for a ticket system, because mofo jira is all about upselling shizzle
 
-- Hook it up to Larvel.io NextVersion Commandbus and EventGenerator
+- Hook it up to Laravel.io NextVersion Commandbus and EventGenerator
 
 Uses the Module generator package for migrations & custom routes ...among other things:
 
