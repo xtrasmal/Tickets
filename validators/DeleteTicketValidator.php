@@ -1,10 +1,10 @@
 <?php namespace App\Modules\Tickets\Validators;
 
 use Illuminate\Validation\Factory;
-use App\Modules\Tickets\Cases\Tickets\CreateTicketRequest;
+use App\Modules\Tickets\Cases\Tickets\DeleteTicketRequest;
 use Ill\Core\CommandBus\Exceptions\CommandValidationFailedException;
 
-class CreateTicketValidator
+class DeleteTicketValidator
 {
     private $validationFactory;
 
@@ -15,15 +15,15 @@ class CreateTicketValidator
 
     }
 
-    public function validate(CreateTicketRequest $command)
+    public function validate(DeleteTicketRequest $command)
     {
 
         $validator = $this->validationFactory->make(
             [
-                'description' => $command->description,
+                'id' => $command->description,
             ],
             [
-                'description' => 'required',
+                'id' => 'required',
             ]
         );
 

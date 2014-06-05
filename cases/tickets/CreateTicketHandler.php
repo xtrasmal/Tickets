@@ -1,12 +1,11 @@
 <?php namespace App\Modules\Tickets\Cases\Tickets;
 
-use App\Modules\Tickets\Listeners\SendNewTicketMail;
 use Ill\Core\Events\Dispatcher;
 use App\Modules\Tickets\Models\Ticket;
+use App\Modules\Tickets\Listeners\SendNewTicketMail;
 use Ill\Core\CommandBus\Interfaces\HandlerInterface;
 use App\Modules\Tickets\Validators\CreateTicketValidator;
 use App\Modules\Tickets\Repositories\EloquentTicketRepository;
-
 
 class CreateTicketHandler implements HandlerInterface
 {
@@ -16,8 +15,8 @@ class CreateTicketHandler implements HandlerInterface
     private $validator;
 
     public function __construct(EloquentTicketRepository $repo,
-                                CreateTicketValidator $validator,
-                                Dispatcher $dispatcher)
+                                Dispatcher $dispatcher,
+                                CreateTicketValidator $validator)
     {
 
         $this->repo = $repo;
@@ -36,8 +35,9 @@ class CreateTicketHandler implements HandlerInterface
             'solved'      => $request->active
         ]);
 
-        // Add listener
-        $this->dispatcher->addListener('ticket.ticket_created', new SendNewTicketMail);
+        // Add listener example. Not used yet.
+        //      $this->dispatcher->addListener('ticket.ticket_created', new SendNewTicketMail);
+
         // Raise creation event
         $ticket->createTicket($ticket);
         // Dispatch the event
