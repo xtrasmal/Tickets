@@ -2,7 +2,7 @@
 
 use Ill\Core\CommandBus\Exceptions\CommandValidationFailedException;
 use Illuminate\Validation\Factory;
-use App\Modules\Tickets\Cases\CreateTicketRequest;
+use App\Modules\Tickets\Cases\Tickets\CreateTicketRequest;
 
 class CreateTicketValidator
 {
@@ -20,12 +20,10 @@ class CreateTicketValidator
 
         $validator = $this->validationFactory->make(
             [
-                'title' => $command->title,
-                'active' => $command->active,
+                'description' => $command->description,
             ],
             [
-                'title' => 'required',
-                'active' => 'required',
+                'description' => 'required',
             ]
         );
 

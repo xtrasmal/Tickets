@@ -30,4 +30,11 @@ class EloquentTicketRepository
 
     }
 
+    public function delete(Model $model)
+    {
+
+        $model->delete();
+
+    }
+
 }
