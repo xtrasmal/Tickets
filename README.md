@@ -13,3 +13,5 @@ How I plan to use it:
 
 1. cd app/modules
 2. git clone this repo
+
+-- all will change soon
