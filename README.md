@@ -21,6 +21,10 @@ Todo
 
 - Test it all. Unit tests, Mocking.. uhm and whatever other stuff I can try out.
 - Behat feature tests
+- Take care of the visual representation of the code. Make it look neat.
+- Code comments
+- Write documentation
+
 
 v-1:
 - Webbased interface
