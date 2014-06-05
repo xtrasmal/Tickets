@@ -19,6 +19,9 @@ How I plan to use it:
 Todo
 ---
 
+- Test it all. Unit tests, Mocking.. uhm and whatever other stuff I can try out.
+- Behat feature tests
+
 v-1:
 - Webbased interface
 - SSO
