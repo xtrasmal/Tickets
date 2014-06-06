@@ -2,7 +2,7 @@
 
 use TestCase;
 
-class TicketApiRouteTest extends TestCase {
+class TicketApiRouteReturnTest extends TestCase {
 
     /**
      * Get all tickets route test

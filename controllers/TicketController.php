@@ -21,7 +21,7 @@ class TicketController extends BaseController
 
     public function getTicket()
     {
-        $command = new ReadTicketRequest('7');
+        $command = new ReadTicketRequest('1');
 
         $this->bus->execute($command);
 
