@@ -12,7 +12,7 @@ class CreateTicketsTable extends Migration {
 	 */
 	public function up()
 	{
-        Schema::create('tickets', function($t)
+        Schema::create('tickets', function(Blueprint $t)
         {
             $t->increments('id')->unique();
             $t->text('description');
