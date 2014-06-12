@@ -39,10 +39,12 @@ class TicketResourceController extends BaseResourceController
     }
 
     /**
+     * Read Ticket Request command
      * Display the specified resource.
+     * Returns json and fires an event
      *
      * @param  int  $id
-     * @return Response
+     * @return ReadTicketResponse
      */
     public function show($id)
     {

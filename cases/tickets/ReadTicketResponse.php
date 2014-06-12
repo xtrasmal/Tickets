@@ -13,4 +13,5 @@ class ReadTicketResponse
         $this->ticket = $ticket;
 
     }
+
 }

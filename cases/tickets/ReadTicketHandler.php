@@ -18,13 +18,13 @@ class ReadTicketHandler implements HandlerInterface
 
         $this->repo = $repo;
         $this->dispatcher = $dispatcher;
+
     }
 
     public function handle($request)
     {
 
         $response = $this->repo->getById($request->id);
-
         // Create a ticket object
         $ticket = new Ticket;
         // Raise creation event
