@@ -3,18 +3,8 @@ Tickets
 
 Module for a ticket system, because mofo jira is all about upselling shizzle
 
-- Hook it up to Laravel.io NextVersion Commandbus and EventGenerator
+- Hook this up to a Usecase, Commandbus + Event based system
 
-Uses the Module generator package for migrations & custom routes ...among other things:
-
-- https://github.com/creolab/laravel-modules
-
-How I plan to use it:
-
-1. cd app/modules
-2. git clone this repo
-
--- all will change soon
 
 Todo
 ---
@@ -54,8 +44,11 @@ v-2:
 - Chat
 - Bizniz rules
 - SLA targets
-- Personal shit, My shit, my shitlist etc
+- Personal lists
 - Customer profiles
 - Custom user fields
 - Fancy pants dashboard stats widgets
 - Advanced roles
+
+v-3:
+- Billing
