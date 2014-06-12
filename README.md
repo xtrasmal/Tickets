@@ -1,7 +1,8 @@
 Tickets
 =======
 
-Module for a ticket system, because mofo jira is all about upselling shizzle
+Module for a ticket system, because Jira is all about upselling. So let's
+try to make something with  similar functionality.
 
 - Hook this up to a Usecase, Commandbus + Event based system
 
