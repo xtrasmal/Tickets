@@ -10,8 +10,7 @@ try to make something with  similar functionality.
 Todo
 ---
 
-- Test it all. Unit tests, Mocking.. uhm and whatever other stuff I can try out.
-- Behat feature tests
+- Phpspec, behat
 - Take care of the visual representation of the code. Make it look neat.
 - Code comments
 - Write documentation
