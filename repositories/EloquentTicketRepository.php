@@ -1,7 +1,7 @@
-<?php namespace App\Modules\Tickets\Repositories;
+<?php namespace Modules\Tickets\Repositories;
 
 use Ill\Core\Events\EventGenerator;
-use App\Modules\Tickets\Models\Ticket;
+use Modules\Tickets\Models\Ticket;
 use Illuminate\Database\Eloquent\Model;
 
 class EloquentTicketRepository

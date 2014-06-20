@@ -1,6 +1,6 @@
-<?php namespace App\Modules\Tickets\Cases\Tickets;
+<?php namespace Modules\Tickets\Cases\Tickets;
 
-use App\Modules\Tickets\Models\Ticket;
+use Modules\Tickets\Models\Ticket;
 
 class ReadTicketResponse
 {

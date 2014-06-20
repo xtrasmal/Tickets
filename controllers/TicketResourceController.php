@@ -1,8 +1,8 @@
-<?php namespace App\Modules\Tickets\Controllers;
+<?php namespace Modules\Tickets\Controllers;
 
 use Ill\System\Base\BaseResourceController;
-use App\Modules\Tickets\Cases\Tickets\ReadTicketRequest;
-use App\Modules\Tickets\Cases\Tickets\DeleteTicketRequest;
+use Modules\Tickets\Cases\Tickets\ReadTicketRequest;
+use Modules\Tickets\Cases\Tickets\DeleteTicketRequest;
 
 
 class TicketResourceController extends BaseResourceController

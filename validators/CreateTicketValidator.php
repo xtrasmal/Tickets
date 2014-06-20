@@ -1,7 +1,7 @@
-<?php namespace App\Modules\Tickets\Validators;
+<?php namespace Modules\Tickets\Validators;
 
 use Illuminate\Validation\Factory;
-use App\Modules\Tickets\Cases\Tickets\CreateTicketRequest;
+use Modules\Tickets\Cases\Tickets\CreateTicketRequest;
 use Ill\Core\CommandBus\Exceptions\CommandValidationFailedException;
 
 class CreateTicketValidator

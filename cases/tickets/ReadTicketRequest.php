@@ -1,4 +1,4 @@
-<?php namespace App\Modules\Tickets\Cases\Tickets;
+<?php namespace Modules\Tickets\Cases\Tickets;
 
 class ReadTicketRequest
 {

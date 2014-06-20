@@ -1,7 +1,7 @@
-<?php namespace App\Modules\Tickets\Controllers;
+<?php namespace Modules\Tickets\Controllers;
 
 use Ill\System\Base\BaseController;
-use App\Modules\Tickets\Cases\Tickets\CreateTicketRequest;
+use Modules\Tickets\Cases\Tickets\CreateTicketRequest;
 
 class TicketController extends BaseController
 {

@@ -1,9 +1,9 @@
-<?php namespace App\Modules\Tickets\Cases\Tickets;
+<?php namespace Modules\Tickets\Cases\Tickets;
 
 use Ill\Core\Events\Dispatcher;
-use App\Modules\Tickets\Models\Ticket;
+use Modules\Tickets\Models\Ticket;
 use Ill\Core\CommandBus\Interfaces\HandlerInterface;
-use App\Modules\Tickets\Repositories\EloquentTicketRepository;
+use Modules\Tickets\Repositories\EloquentTicketRepository;
 
 
 class DeleteTicketHandler implements HandlerInterface

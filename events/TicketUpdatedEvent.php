@@ -1,6 +1,6 @@
-<?php namespace App\Modules\Tickets\Events;
+<?php namespace Modules\Tickets\Events;
 
-use App\Modules\Tickets\Models\Ticket;
+use Modules\Tickets\Models\Ticket;
 use Ill\Core\Events\Interfaces\EventInterface;
 
 class TicketUpdatedEvent implements EventInterface

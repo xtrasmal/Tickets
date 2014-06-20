@@ -1,4 +1,4 @@
-<?php namespace App\Modules\Tickets\Listeners;
+<?php namespace Modules\Tickets\Listeners;
 
 use Ill\Core\Events\Interfaces\ListenerInterface;
 use Ill\Core\Events\Interfaces\EventInterface;

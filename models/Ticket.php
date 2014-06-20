@@ -1,11 +1,11 @@
-<?php namespace App\Modules\Tickets\Models;
+<?php namespace Modules\Tickets\Models;
 
 use Ill\Core\Events\EventGenerator;
 use Illuminate\Database\Eloquent\Model;
-use App\Modules\Tickets\Events\TicketReadEvent;
-use App\Modules\Tickets\Events\TicketDeletedEvent;
-use App\Modules\Tickets\Events\TicketUpdatedEvent;
-use App\Modules\Tickets\Events\TicketCreatedEvent;
+use Modules\Tickets\Events\TicketReadEvent;
+use Modules\Tickets\Events\TicketDeletedEvent;
+use Modules\Tickets\Events\TicketUpdatedEvent;
+use Modules\Tickets\Events\TicketCreatedEvent;
 use Illuminate\Database\Eloquent\SoftDeletingTrait;
 
 class Ticket extends Model
