@@ -1,0 +1,6 @@
+tickets:
+  filters:
+    tags: "@tickets"
+  paths:
+    features: app/modules/Tickets/tests/features
+    bootstrap: app/modules/Tickets/tests/features/bootstrap
