@@ -2,7 +2,6 @@
 
 use Ill\Core\Events\Dispatcher;
 use Modules\Tickets\Models\Ticket;
-use Modules\Tickets\Listeners\SendNewTicketMail;
 use Ill\Core\CommandBus\Interfaces\HandlerInterface;
 use Modules\Tickets\Validators\CreateTicketValidator;
 use Modules\Tickets\Repositories\EloquentTicketRepository;
